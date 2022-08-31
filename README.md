@@ -8,7 +8,7 @@ This repo contains nao nodes for getup
 
 
 
-This node monitors the gyroscope sensor and, in case of a fall on the back, starts the execution of the rising poses. It is worth noting that the poses are performed sequentially one after another. The values of the angles of these poses are stored as an array in the python script of this node, which of course is not very good and requires refinement with the removal of poses in a separate file. It is also very important to note that when developing the stand-up position, it was assumed that the robot has 23 joints and 3 more are equal to zero, the sequence of which is strictly fixed, following the NAO documentation [GitHub Pages](https://nao-interfaces-docs.readthedocs.io/en/latest/joints.html):
+This node monitors the gyroscope sensor and, in case of a fall on the back, starts the execution of the rising poses. It is worth noting that the poses are performed sequentially one after another. The values of the angles of these poses are stored as an array in the python script of this node, which of course is not very good and requires refinement with the removal of poses in a separate file. It is also very important to note that when developing the stand-up position, it was assumed that the robot has 23 joints and 3 more are equal to zero, the sequence of which is strictly fixed, following the [NAO documentation](https://nao-interfaces-docs.readthedocs.io/en/latest/joints.html):
 
 
 ```
