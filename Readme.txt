@@ -10,6 +10,7 @@ cd dev_ws/src
 git clone https://github.com/alex-zinin/getup_back_node.git
 ```
 3) Make rosdep install in your dev_ws directory: 
+
 ```
 cd ..
 rosdep install -i --from-path src --rosdistro galactic -y
