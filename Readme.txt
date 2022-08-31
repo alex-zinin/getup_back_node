@@ -3,7 +3,7 @@ This repo contains nao nodes for getup
 
 1) Move to your ROS2 workspace to src:
 ...
-cd dev_ws/src
+$cd dev_ws/src
 ...
 2) Download this node:
 
