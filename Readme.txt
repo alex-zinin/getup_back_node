@@ -2,9 +2,9 @@ This repo contains nao nodes for getup
 
 
 1) Move to your ROS2 workspace to src:
-
+...
 cd dev_ws/src
-
+...
 2) Download this node:
 
 git clone https://github.com/alex-zinin/getup_back_node.git
