@@ -24,7 +24,7 @@ colcon build --packages-select getup_back_node
 . install/setup.bash
 ros2 run getup_back_node getup_node
 ```
-Make shure that you that nao_lola node is running:
+*Make sure that nao_lola node is running:
 
 ```
 source /opt/ros/galactic/setup.bash
